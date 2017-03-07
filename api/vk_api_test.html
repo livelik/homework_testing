@@ -1,0 +1,29 @@
+<html>
+<title>vk api test</title>
+<head></head>
+<body>
+<script type="text/javascript">
+	// Объявляем переменную и инцицализируем её новым элементом DOM-модели script
+	var script = document.createElement('SCRIPT');
+	// Свойству элемента script присваивается url запроса к API vk
+	script.src = "https://api.vk.com/method/users.get?user_ids=livelik,cyberprick&fields=city&v=5.62&callback=callbackFunc";
+	// Элементу head добавляется дочерний элемент script, который мы ранее создали
+	document.getElementsByTagName("head")[0].appendChild(script);
+
+	// Объявляем функцию, которой передаются данные после выполнения запроса:
+	// ...callback=callbackFunc
+	function callbackFunc(result) {
+		var content = document.getElementById("content");
+		var user = '';
+		
+		// Обходим по циклу массив полученных объектов с данными по пользователям
+		for (str of result.response) {
+			// Формируем строку с данными из свойств объектов пользователей
+			user = user + str.first_name + ': ' + str.city.title + "; ";
+		}
+		content.innerHTML = user;
+	}
+</script>
+<p id="content">Данные загружаются</p>
+</body>
+</html> 
