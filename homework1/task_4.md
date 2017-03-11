@@ -17,7 +17,7 @@
 *Фактический результат:*  
 загружается страница с заголовком типа "Отзывы [№]", именем пользователя и фотографией, а также текстом самого отзыва.
 
-Пример:
+*Пример:*
 
 ![error_pavel](https://github.com/livelik/homework_testing/blob/master/homework1/pictures/error_user.png "Павел")
 
