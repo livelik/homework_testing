@@ -45,7 +45,7 @@
 1) Взять яйцо и разбить его.
 2) Изучить состояние желтка и белка.
 
-![fresh egg](/pictures/fresh_egg2.jpg "Проверка свежести")
+![fresh egg](https://github.com/livelik/homework_testing/blob/master/homework1/pictures/fresh_egg2.jpg "Проверка свежести")
 
 *Ожидаемый результат:*
 желток выпуклый, белок вязкий и плотно собран вокруг желтка.
@@ -106,7 +106,7 @@
 8) Залить холодной водой оставить лежать 2 минуты. 
 9) Очистить от скорлупы и разрезать яйцо.
 
-![soft boiled](/pictures/soft_boiled.jpg "Всмятку")
+![soft boiled](https://github.com/livelik/homework_testing/blob/master/homework1/pictures/soft_boiled.jpg "Всмятку")
 
 *Ожидаемый результат:*
 у яйца нетвёрдый белок и жидкий желток оранжевого цвета. 
@@ -118,7 +118,7 @@
 8) Залить холодной водой оставить лежать 2 минуты. 
 9) Очистить от скорлупы и разрезать яйцо.
 
-![in a bag](/pictures/bag.JPG "В мешочек")
+![in a bag](https://github.com/livelik/homework_testing/blob/master/homework1/pictures/bag.JPG "В мешочек")
 
 *Ожидаемый результат:*
 у яйца немного нетвёрдый белок и светло-оранжевый желток. 
@@ -181,7 +181,7 @@
 9) Очистить от скорлупы и разрезать яйцо.
 10) Осмотреть яйцо и попробовать на вкус.
 
-![overcooked](/pictures/overcooked.jpg "Переваренное")
+![overcooked](https://github.com/livelik/homework_testing/blob/master/homework1/pictures/overcooked.jpg "Переваренное")
 
 *Ожидаемый результат:*
 белок резиновый на вкус, желток покрыт неприятным сероватым налётом.
