@@ -93,7 +93,7 @@
 8) Залить холодной водой оставить лежать 2 минуты. 
 9) Очистить от скорлупы и разрезать яйцо.
 
-![hard boiled](/pictures/hard_boiled.png "Вкрутую")
+![hard boiled](https://github.com/livelik/homework_testing/blob/master/homework1/pictures/hard_boiled.png "Вкрутую")
 
 *Ожидаемый результат:*
 у яйца твёрдый белок и плотный желток светло-жёлтого цвета.
