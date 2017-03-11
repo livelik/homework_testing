@@ -25,7 +25,7 @@
 2) Налить в глубокую ёмкость холодную воду чуть больше, чем наполовину.
 3) Поместить яйцо в глубокую ёмкость.
 
-![fresh egg](/pictures/fresh_egg.jpg "Проверка свежести")
+![fresh egg](https://github.com/livelik/homework_testing/blob/master/homework1/pictures/fresh_egg.jpg "Проверка свежести")
 
 *Ожидаемый результат:*
 яйцо лежит на дне в горизонтальном положении.
