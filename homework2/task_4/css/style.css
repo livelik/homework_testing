@@ -30,6 +30,15 @@ img {
     color: black;
 }
 
+.row {
+    margin-left: 0;
+}
+
+.col-md-6 {
+    width: 527px;
+    padding: 0;
+}
+
 .menu {
     background-color: #f4e7e5;
     margin: 0;
@@ -37,7 +46,32 @@ img {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.contacts {
+    height: 334px;
+    background-color: #f4e7e5;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.contacts h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 15px;
+    margin: 0;
+}
+
+.contacts ul {
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.contacts ul li {
+    padding: 10px 10px;
+}
+
 .nav > li > a {
+    font-weight: bold;
     font-size: 14px;
     color: black;
 }
@@ -47,6 +81,7 @@ img {
 }
 
 .cv-item {
+    position: relative;
     background-color: #f4e7e5;
     padding: 15px 15px;
     margin: 0;
@@ -55,9 +90,16 @@ img {
 }
 
 .cv-item h2 {
+    padding-left: 30px;
     font-size: 20px;
     font-weight: 700;
     margin: 0;
+}
+
+.cv-item .glyphicon {
+    position: absolute;
+    top: 20px;
+    left: 15px;
 }
 
 .cv-item ul {
