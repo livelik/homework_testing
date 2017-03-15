@@ -1,0 +1,83 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: block;
+    width: 1100px;
+}
+
+.page-header {
+    background-color: #f4e7e5;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.page-header h1 {
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+}
+
+.menu {
+    background-color: #f4e7e5;
+    margin: 0;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.nav > li > a {
+    font-size: 14px;
+    color: black;
+}
+
+.nav > li > a:hover {
+    background-color: #fff4f8;
+}
+
+.cv-item {
+    background-color: #f4e7e5;
+    padding: 15px 15px;
+    margin: 0;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cv-item h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cv-item ul {
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.cv-item ul li {
+    padding: 10px 10px;
+}
+
+.cv-item .tester {
+    font-weight: bold;
+}
+
+.cv-item p {
+    padding: 20px 10px 10px 0;
+    margin: 0;
+}
+
+.cv-item:last-child {
+    margin-bottom: 10px;
+}
