@@ -1,25 +1,26 @@
 1. *Клиенты из Германии:*  
 SELECT * FROM Customers WHERE Country='Germany';    
-**Îòâåò íà çàïðîñ: 13**
+**Ответ на запрос: 13**
  
 2. *Имена, заканчивающиеся на 'e':*  
 SELECT * FROM Customers WHERE CustomerName LIKE '%e';   
-**Êîëè÷åñòâî çàïèñåé: 15**  
+**Количество записей: 15**  
 
-3. *Âñòàâèòü èìÿ â òàáëèöó:*  
+3. *Вставить имя в таблицу:*  
 INSERT INTO Customers (CustomerName) VALUES ('Lilya Velikzhanina');   
-![insert name](/homework3/task_4/insert_name.png)
+![insert name](/homework3/task_5/insert_name.png)
 
-4. *Èçìåíèòü èìÿ:*  
+4. *Изменить имя:*  
 UPDATE Customers SET CustomerName='Lilya Velik' WHERE CustomerName='Lilya Velikzhanina';   
-![update name](/homework3/task_4/update_name.png)
+![update name](/homework3/task_5/update_name.png)
 
-5. *Óäàëèòü êëèåíòîâ èç ãîðîäà Nantes:*  
+5. *Удалить клиентов из города Nantes:*  
 DELETE FROM Customers WHERE City='Nantes';   
-**Ðåçóëüòàò:** You have made changes to the database. Rows affected: 2
+**Результат:** You have made changes to the database. Rows affected: 2
 
-6. *Íîìåðà çàêàçîâ êëèåíòîâ, ñäåëàííûõ ðàáîòíèêîì Steven:* SELECT OrderID FROM Orders INNER JOIN Employees ON Orders.EmployeeID=Employees.EmployeeId WHERE FirstName='Steven';    
-**Íîìåðà çàêàçîâ:**   
+6. *Номера заказов клиентов, сделанных работником Steven:*  
+SELECT OrderID FROM Orders INNER JOIN Employees ON Orders.EmployeeID=Employees.EmployeeId WHERE FirstName='Steven';    
+**Номера заказов:**   
 10248  
 10254  
 10269  
