@@ -1,25 +1,25 @@
-1. *Клиенты из Германии:*  
+1. *РљР»РёРµРЅС‚С‹ РёР· Р“РµСЂРјР°РЅРёРё:*  
 SELECT * FROM Customers WHERE Country='Germany';    
-**Ответ на запрос: 13**
+**ГЋГІГўГҐГІ Г­Г  Г§Г ГЇГ°Г®Г±: 13**
  
-2. *Имена, заканчивающиеся на 'e':*  
+2. *РРјРµРЅР°, Р·Р°РєР°РЅС‡РёРІР°СЋС‰РёРµСЃСЏ РЅР° 'e':*  
 SELECT * FROM Customers WHERE CustomerName LIKE '%e';   
-**Количество записей: 15**  
+**ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г§Г ГЇГЁГ±ГҐГ©: 15**  
 
-3. *Вставить имя в таблицу:*  
+3. *Г‚Г±ГІГ ГўГЁГІГј ГЁГ¬Гї Гў ГІГ ГЎГ«ГЁГ¶Гі:*  
 INSERT INTO Customers (CustomerName) VALUES ('Lilya Velikzhanina');   
-![insert name](/homework3/insert_name.png)
+![insert name](/homework3/task_4/insert_name.png)
 
-4. *Изменить имя:*  
+4. *Г€Г§Г¬ГҐГ­ГЁГІГј ГЁГ¬Гї:*  
 UPDATE Customers SET CustomerName='Lilya Velik' WHERE CustomerName='Lilya Velikzhanina';   
-![update name](/homework3/update_name.png)
+![update name](/homework3/task_4/update_name.png)
 
-5. *Удалить клиентов из города Nantes:*  
+5. *Г“Г¤Г Г«ГЁГІГј ГЄГ«ГЁГҐГ­ГІГ®Гў ГЁГ§ ГЈГ®Г°Г®Г¤Г  Nantes:*  
 DELETE FROM Customers WHERE City='Nantes';   
-**Результат:** You have made changes to the database. Rows affected: 2
+**ГђГҐГ§ГіГ«ГјГІГ ГІ:** You have made changes to the database. Rows affected: 2
 
-6. *Номера заказов клиентов, сделанных работником Steven:* SELECT OrderID FROM Orders INNER JOIN Employees ON Orders.EmployeeID=Employees.EmployeeId WHERE FirstName='Steven';    
-**Номера заказов:**   
+6. *ГЌГ®Г¬ГҐГ°Г  Г§Г ГЄГ Г§Г®Гў ГЄГ«ГЁГҐГ­ГІГ®Гў, Г±Г¤ГҐГ«Г Г­Г­Г»Гµ Г°Г ГЎГ®ГІГ­ГЁГЄГ®Г¬ Steven:* SELECT OrderID FROM Orders INNER JOIN Employees ON Orders.EmployeeID=Employees.EmployeeId WHERE FirstName='Steven';    
+**ГЌГ®Г¬ГҐГ°Г  Г§Г ГЄГ Г§Г®Гў:**   
 10248  
 10254  
 10269  
